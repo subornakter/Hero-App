@@ -1,0 +1,290 @@
+[
+  {
+    "image": "https://i.ibb.co.com/PGYnRBZT/p1.png",
+    "title": "SocialConnect",
+    "companyName": "Tech Innovations",
+    "id": 1,
+    "description": "SocialConnect is a comprehensive social networking platform that allows users to connect, share, and discover content in a vibrant and engaging environment. With features like real-time messaging, multimedia sharing, and personalized feeds, it aims to enhance online social interactions.",
+    "size": 850,
+    "reviews": 12,
+    "ratingAvg": 4.5,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HTKXnfcY/p2.webp",
+    "title": "ShopEase",
+    "companyName": "Retail Solutions",
+    "id": 2,
+    "description": "ShopEase is an intuitive e-commerce application designed to provide users with a seamless shopping experience. It offers a wide range of products, secure payment options, and personalized recommendations to enhance user satisfaction.",
+    "size": 950,
+    "reviews": 15,
+    "ratingAvg": 4.7,
+    "downloads": 7.5,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 850 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zVmCH6Wk/images.jpg",
+    "title": "TechGuru",
+    "companyName": "Innovative Minds",
+    "id": 3,
+    "description": "TechGuru is a technology news and gadget review platform that keeps users updated with the latest trends in the tech world. It features in-depth articles, expert reviews, and tech tutorials to cater to tech enthusiasts.",
+    "size": 700,
+    "reviews": 8,
+    "ratingAvg": 4.3,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 280 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SwGWLwx1/p4.jpg",
+    "title": "HealthTrack",
+    "companyName": "Wellness Inc.",
+    "id": 4,
+    "description": "HealthTrack is a personal health monitoring application that allows users to track their fitness goals, monitor vital statistics, and receive personalized health tips. It integrates with various fitness devices to provide comprehensive health insights.",
+    "size": 110,
+    "reviews": 95,
+    "ratingAvg": 4.6,
+    "downloads": 6,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/sJ1mryRJ/dd.png",
+    "title": "LearnHub",
+    "companyName": "EduTech",
+    "id": 5,
+    "description": "LearnHub is an online learning platform offering a wide range of courses across various disciplines. It features interactive lessons, quizzes, and certification programs to enhance the learning experience. Users can track their progress and earn badges for motivation.",
+    "size": 120,
+    "reviews": 13,
+    "ratingAvg": 4.8,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/n86rqByb/p7.jpg",
+    "title": "FoodieExpress",
+    "companyName": "Gourmet Solutions",
+    "id": 6,
+    "description": "FoodieExpress is a food delivery application that connects users with local restaurants. It offers real-time tracking, multiple payment options, and a wide variety of cuisines. Users can rate meals and share reviews to enhance community experience.",
+    "size": 950,
+    "reviews": 11,
+    "ratingAvg": 4.4,
+    "downloads": 6.5,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 465 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Zpn6N0PK/p8.jpg",
+    "title": "TravelMate",
+    "companyName": "Explorer Co.",
+    "id": 7,
+    "description": "TravelMate is a travel planning application that helps users discover destinations, book flights and accommodations, and create personalized itineraries. It also provides travel tips, local guides, and user reviews to make trips enjoyable.",
+    "size": 105,
+    "reviews": 9,
+    "ratingAvg": 4.2,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YFJM283t/p9.png",
+    "title": "TuneIn",
+    "companyName": "SoundWave",
+    "id": 8,
+    "description": "TuneIn is a music streaming application offering a vast library of songs, playlists, and podcasts. It features personalized recommendations, offline listening, and community playlists to keep music lovers engaged.",
+    "size": 115,
+    "reviews": 14,
+    "ratingAvg": 4.7,
+    "downloads": 7,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 830 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5W9pxNKX/p10.png",
+    "title": "SnapShot",
+    "companyName": "Pixel Studios",
+    "id": 9,
+    "description": "SnapShot is a photo editing and sharing application that provides users with advanced editing tools, filters, and a platform to share their creations with a creative community. Users can participate in contests and explore trending photos.",
+    "size": 100,
+    "reviews": 12.5,
+    "ratingAvg": 4.6,
+    "downloads": 5.5,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 720 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ynbXJvzx/p11.png",
+    "title": "FitTrack",
+    "companyName": "Active Life",
+    "id": 10,
+    "description": "FitTrack is a fitness tracking application that helps users monitor their workouts, set goals, and track progress. It integrates with various fitness devices, provides motivational insights, and community challenges to keep users engaged.",
+    "size": 900,
+    "reviews": 10.5,
+    "ratingAvg": 4.5,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9mZh0m5R/p12.png",
+    "title": "NewsFlash",
+    "companyName": "Media Hub",
+    "id": 11,
+    "description": "NewsFlash is a news aggregation application that provides users with the latest headlines, breaking news, and personalized news feeds based on their interests. Users can customize topics, receive real-time alerts, and share stories easily across social platforms.",
+    "size": 80,
+    "reviews": 950,
+    "ratingAvg": 4.3,
+    "downloads": 3.5,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 415 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/GvKCxw5J/p13.png",
+    "title": "MoneyWise",
+    "companyName": "FinTech Solutions",
+    "id": 12,
+    "description": "MoneyWise is a personal finance management app helping users track expenses, set budgets, and plan savings. It provides financial tips, investment suggestions, and analytics to improve financial literacy.",
+    "size": 100,
+    "reviews": 8,
+    "ratingAvg": 4.4,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bj5V96BD/p14.png",
+    "title": "CineWorld",
+    "companyName": "Entertainment Hub",
+    "id": 13,
+    "description": "CineWorld is a movie streaming and booking platform. Users can watch the latest films, check reviews, book theater tickets, and explore trending trailers in a personalized cinematic experience.",
+    "size": 120,
+    "reviews": 9,
+    "ratingAvg": 4.5,
+    "downloads": 4.5,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/dyqrfzb/p15.jpg",
+    "title": "WeatherNow",
+    "companyName": "Climate Tech",
+    "id": 14,
+    "description": "WeatherNow is a weather forecasting application that provides real-time weather updates, severe weather alerts, and interactive maps. Users can monitor weather trends and plan activities accordingly.",
+    "size": 850,
+    "reviews": 75,
+    "ratingAvg": 4.2,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 375 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/d4gQW1Qq/p16.png",
+    "title": "Readify",
+    "companyName": "BookWorld",
+    "id": 15,
+    "description": "Readify is an e-book and audiobook platform offering thousands of books across genres. Users can highlight, bookmark, and share favorite passages, creating a personalized digital reading experience.",
+    "size": 110,
+    "reviews": 95,
+    "ratingAvg": 4.6,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 490 }
+    ]
+  },
+    {
+    "image": "https://i.ibb.co.com/gZhFS44k/p17.png",
+    "title": "RecipeBook",
+    "companyName": "KitchenJoy",
+    "id": 16,
+    "description": "RecipeBook is a digital cookbook application that provides users with a vast collection of recipes from various cuisines. With features like ingredient search, meal planning, and nutritional information, RecipeBook aims to make cooking at home both enjoyable and convenient. Whether you're a seasoned chef or a beginner in the kitchen, RecipeBook offers inspiration and guidance to help you create delicious meals.",
+    "size": 550,
+    "reviews": 95,
+    "ratingAvg": 4.3,
+    "downloads": 7.2,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 365 }
+    ]
+  }
+]
