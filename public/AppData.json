@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/zVmCH6Wk/images.jpg",
+    "image": "https://i.ibb.co.com/p6X5yTMV/vv.webp",
     "title": "TechGuru",
     "companyName": "Innovative Minds",
     "id": 3,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/n86rqByb/p7.jpg",
+    "image": "https://i.ibb.co.com/B2vK0Srt/bg.png",
     "title": "FoodieExpress",
     "companyName": "Gourmet Solutions",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Zpn6N0PK/p8.jpg",
+    "image": "https://i.ibb.co.com/Kj4tHhGT/sd.webp",
     "title": "TravelMate",
     "companyName": "Explorer Co.",
     "id": 7,
@@ -270,7 +270,7 @@
     ]
   },
     {
-    "image": "https://i.ibb.co.com/gZhFS44k/p17.png",
+    "image": "https://i.ibb.co.com/LDYNYg5q/rr.png",
     "title": "RecipeBook",
     "companyName": "KitchenJoy",
     "id": 16,
@@ -285,6 +285,79 @@
       { "name": "3 star", "count": 120 },
       { "name": "4 star", "count": 400 },
       { "name": "5 star", "count": 365 }
+    ]
+  }
+  ,
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/XftSKyMQ/p19.png",
+    "title": "Daraz",
+    "companyName": "Daraz Bangladesh Ltd.",
+    "description": "Daraz is the largest online shopping platform in Bangladesh, offering millions of products from electronics to fashion. With fast delivery, secure payment, and regular discounts, Daraz makes online shopping effortless and enjoyable.",
+    "size": 55,
+    "reviews": 21,
+    "ratingAvg": 4.5,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1550000 }
+    ]
+  },
+   {
+    "id": 18,
+    "image": "https://i.ibb.co.com/20J3M9JG/p20.jpg",
+    "title": "Toffee",
+    "companyName": "Banglalink Digital",
+    "description": "Toffee is Bangladesh’s biggest entertainment platform offering live TV, movies, and sports streaming for free. Enjoy cricket matches, dramas, and exclusive content anywhere with a smooth and data-friendly experience.",
+    "size": 47,
+    "reviews": 800000,
+    "ratingAvg": 4.2,
+    "downloads": 30,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 495000 }
+    ]
+  },
+    {
+    "id": 19,
+    "image": "https://i.ibb.co.com/v6PSJh3x/p21.png",
+    "title": "Shohoz",
+    "companyName": "Shohoz Limited",
+    "description": "Shohoz brings ticket booking, rides, and delivery services into one easy-to-use platform. Whether you need a bus ticket or a meal delivered, Shohoz offers fast and reliable solutions that save time and make life convenient.",
+    "size": 43,
+    "reviews": 350000,
+    "ratingAvg": 4.1,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 190000 }
+    ]
+  },
+    {
+    "id": 20,
+    "image": "https://i.ibb.co.com/hJnqmDrn/egg-480.png",
+    "title": "Chaldal",
+    "companyName": "Chaldal Limited",
+    "description": "Chaldal is Bangladesh’s leading online grocery delivery app that brings your daily essentials right to your doorstep. From fresh vegetables to electronics, Chaldal delivers everything within hours, ensuring convenience, quality, and freshness at unbeatable prices.",
+    "size": 37,
+    "reviews": 450000,
+    "ratingAvg": 4.6,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 340000 }
     ]
   }
 ]
