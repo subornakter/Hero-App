@@ -6,6 +6,7 @@ import rating from '../assets/icon-ratings.png';
 import iconReview from '../assets/icon-review.png';
 import { loadInstalled, updateList } from '../Utils/localStorage';
 import NotFound from './NotFound';
+import Loading from '../components/Loading'
 import {
   BarChart,
   Bar,
@@ -28,7 +29,7 @@ const AppDetails = () => {
     setIsInstalled(installed.some(p => p.id === Number(id)));
   }, [id]);
 
-  if (loading) return <p>Loading.......</p>;
+  if (loading) return <Loading/>;
 
  if(!app){
     return <NotFound/>

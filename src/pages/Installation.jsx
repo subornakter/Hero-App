@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import { loadInstalled, removeFromInstallation } from '../Utils/localStorage';
 import download from '../assets/icon-downloads.png';
 import rating from '../assets/icon-ratings.png';
-
+import useApps from '../Hooks/useApps';
+import Loading from '../components/Loading'
 const Installation = () => {
   const [installation, setInstallation] = useState(() => loadInstalled());
   const [sortOrder, setSortOrder] = useState('none');
-
+   const {loading}=useApps();
   if (!installation.length)
     return (
       <div className="flex justify-center items-center min-h-[60vh] text-gray-500 text-lg">
@@ -61,7 +62,11 @@ const Installation = () => {
       </div>
 
       {/* Cards Section */}
+         {loading ? (
+        <Loading />
+      ) : (
       <div className="space-y-5 mt-6">
+       
         {sortedItem.map((p) => (
           <div
             key={p.id}
@@ -110,7 +115,9 @@ const Installation = () => {
           </div>
         ))}
       </div>
+      )}
     </div>
+      
   );
 };
 
