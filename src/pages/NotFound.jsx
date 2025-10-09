@@ -1,8 +1,7 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
 import AppError from '../assets/App-Error.png'
 import { Link } from 'react-router';
+import { FaArrowRight } from "react-icons/fa";
 const NotFound = () => {
 
     return (
@@ -16,7 +15,7 @@ const NotFound = () => {
                 />
                 <h1 className="font-bold text-3xl mb-2">Oops!!! App not found!</h1>
                 <p className="text-gray-500 txt-sm">The App you are requesting is not found on our system.please try another apps.</p>
-                <Link to='/apps'><button className='bg-purple-500 text-white rounded-md p-2 font-bold mt-5'>Go Back➡️</button></Link>
+                <Link to='/apps'><button className='bg-purple-500 text-white flex items-center gap-1 rounded-md p-2 font-bold mt-5'>Go Back <FaArrowRight /></button></Link>
               </div>
                 
          </>
