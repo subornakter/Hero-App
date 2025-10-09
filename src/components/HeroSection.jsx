@@ -24,8 +24,11 @@ const HeroSection = () => {
         </p>
 
         <div className="flex gap-3 mt-5">
-         <Link to={"https://play.google.com/store/games?hl=en&pli=1"}>
-          <button className="flex gap-2 p-3 btn border border-gray-300">
+         <Link to={"https://play.google.com/store/games?hl=en&pli=1"}
+          target='_blank'>
+         
+          <button className="flex gap-2 p-3 btn border border-gray-300"
+           target='_blank'>
             <img src="https://i.ibb.co.com/HDZCd83v/Group.png" alt="" />Play Store
           </button>
          </Link>

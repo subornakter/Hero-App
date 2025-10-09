@@ -37,7 +37,8 @@ const NavBar = () => {
      
     
 <NavLink
-  to="/products"
+  to="https://github.com/subornakter"
+  target='_blank'
   className="btn text-white flex gap-2 bg-gradient-to-r from-[#632ee3] to-[#9f62f2]"
 >
      <img src="https://i.ibb.co.com/LdPshm1T/Vector.png" alt="" />
