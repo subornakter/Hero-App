@@ -42,43 +42,36 @@ const HeroSection = () => {
         
       </div>
       <div className="pt-5">
-          <img className="w-full h-[300px] object-contain" src={Hero} alt="Hero Section" />
+          <img className="w-full h-auto md:h-[300px] object-contain" src={Hero} alt="Hero Section" />
         </div>
-      <div className="w-full bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white py-20 space-y-10 ">
-        <div className="w-full text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-10">
-            Trusted By Millions, Built For You
-          </h2>
+      <div className="w-full bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white py-10 sm:py-14 md:py-16 px-4 sm:px-6 md:px-10">
+  <div className="w-full text-center space-y-10 md:space-y-12">
+    <h2 className="text-2xl md:text-4xl font-bold">
+      Trusted By Millions, Built For You
+    </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-           
-            <div>
-              <p className="text-sm opacity-80 mb-2">Total Downloads</p>
-              <h3 className="text-5xl font-extrabold">29.6M</h3>
-              <p className="text-sm mt-2 text-[#ffd6f9]">
-                21% More Than Last Month
-              </p>
-            </div>
-
-            <div>
-              <p className="text-sm opacity-80 mb-2">Total Reviews</p>
-              <h3 className="text-5xl font-extrabold">906K</h3>
-              <p className="text-sm mt-2 text-[#ffd6f9]">
-                46% More Than Last Month
-              </p>
-            </div>
-
-      
-            <div>
-              <p className="text-sm opacity-80 mb-2">Active Apps</p>
-              <h3 className="text-5xl font-extrabold">132+</h3>
-              <p className="text-sm mt-2 text-[#ffd6f9]">
-                31 More Will Launch
-              </p>
-            </div>
-          </div>
-        </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-8">
+      <div className="space-y-2">
+        <p className="text-sm opacity-80">Total Downloads</p>
+        <h3 className="text-4xl md:text-5xl font-extrabold">29.6M</h3>
+        <p className="text-sm text-[#ffd6f9]">21% More Than Last Month</p>
       </div>
+
+      <div className="space-y-2">
+        <p className="text-sm opacity-80">Total Reviews</p>
+        <h3 className="text-4xl md:text-5xl font-extrabold">906K</h3>
+        <p className="text-sm text-[#ffd6f9]">46% More Than Last Month</p>
+      </div>
+
+      <div className="space-y-2">
+        <p className="text-sm opacity-80">Active Apps</p>
+        <h3 className="text-4xl md:text-5xl font-extrabold">132+</h3>
+        <p className="text-sm text-[#ffd6f9]">31 More Will Launch</p>
+      </div>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };

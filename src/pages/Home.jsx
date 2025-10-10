@@ -11,14 +11,14 @@ const Home = () => {
     return (
         <div className='bg-[#f7f7fb] '>
             <HeroSection></HeroSection>
-            <div className='flex  flex-col items-center mt-8'>
+            <div className='flex  flex-col items-center mt-10'>
                 <h1 className='text-4xl font-bold'>Trending Apps</h1>
                 <p className='text-gray-500 mt-2'>Explore All Trending Apps on the Market developed by us</p>
             </div>
               {loading ? (
         <Loading />
       ) : (
-            <div className='max-w-screen-xl  mx-auto w-full px-4 md:px-8 lg:px-12 py-4 md:py-8 lg:py-12 flex-1 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mt-8 gap-4'>
+            <div className='max-w-screen-xl  mx-auto w-full px-4 md:px-8 lg:px-12 py-4 md:py-5 lg:py-8 flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-8 gap-4'>
           {featuredProducts.map(app => (
             <AppCard key={app.id} app={app} />
           ))}

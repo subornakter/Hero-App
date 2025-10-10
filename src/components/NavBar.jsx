@@ -4,7 +4,7 @@ import Logo from '../assets/logo.png'
 import { AppWindow, Download, Home, Settings } from "lucide-react";
 const NavBar = () => {
     return (
-        <div className="navbar bg-base-100 md:px-15 shadow-sm">
+        <div className="navbar bg-base-100 md:px-20 shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -13,9 +13,9 @@ const NavBar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-               <NavLink to="/" className={({isActive})=>isActive?"text-[#23BE0A] border-[#23BE0A] btn ":"text-[#131313CC] btn bg-white border-none"}>Home</NavLink>   
-      <NavLink to="/apps" className={({isActive})=>isActive?"text-[#23BE0A] border-[#23BE0A] btn ":"text-[#131313CC] btn bg-white border-none"}>Apps</NavLink> 
-     <NavLink to="/installation"className={({isActive})=>isActive?"text-[#23BE0A] border-[#23BE0A] btn ":"text-[#131313CC] btn bg-white border-none"}>Installation</NavLink>
+               <NavLink to="/" className={({isActive})=>isActive?"text-[#632ee3] items-center  border-b-2 border-[#632ee3] btn  ":"text-[#131313CC] btn bg-white border-none"}>Home</NavLink>   
+      <NavLink to="/apps" className={({isActive})=>isActive?"text-[#632ee3] items-center  border-b-2 border-[#632ee3] btn ":"text-[#131313CC] btn bg-white border-none"}>Apps</NavLink> 
+     <NavLink to="/installation"className={({isActive})=>isActive?"text-[#632ee3] items-center  border-b-2 border-[#632ee3] btn  ":"text-[#131313CC] btn bg-white border-none"}>Installation</NavLink>
      
       </ul>
     </div>
@@ -28,7 +28,7 @@ const NavBar = () => {
   </div>
   <div className="navbar-center ">
    <ul className="menu menu-horizontal px-1 hidden lg:flex">
-          <NavLink to="/" className={({isActive})=>isActive?"text-[#632ee3] items-center  border-b border-[#632ee3] btn ":"text-[#131313CC] btn bg-white border-none"}><Home></Home>Home</NavLink>   
+          <NavLink to="/" className={({isActive})=>isActive?"text-[#632ee3] items-center  border-b-2 border-[#632ee3] btn ":"text-[#131313CC] btn bg-white border-none"}><Home></Home>Home</NavLink>   
       <NavLink to="/apps" className={({isActive})=>isActive?"text-[#632ee3] items-center border-b border-[#632ee3] btn ":"text-[#131313CC] btn bg-white border-none"}><AppWindow></AppWindow>Apps</NavLink> 
      <NavLink to="/installation"className={({isActive})=>isActive?"text-[#632ee3] items-center  border-b border-[#632ee3] btn ":"text-[#131313CC] btn bg-white border-none"}> <Download></Download>Installation</NavLink>
     </ul>

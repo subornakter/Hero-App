@@ -52,31 +52,31 @@ const AppDetails = () => {
 
         <div className="flex-1 space-y-3">
           <h2 className="text-3xl font-bold">{title}</h2>
-          <p className="text-gray-600 font-medium">Developed By: {companyName}</p>
+          <p className="text-gray-600 font-medium">Developed By: <span className='text-purple-500 font-semibold'>{companyName}</span></p>
           <div className="border-t border-gray-200 my-3"></div>
 
           <div className="flex justify-between mt-8">
             <div className="flex-col items-center">
               <img src={download} alt="" />
-              <p className="text-gray-500">Downloads</p>
-              <h1 className="text-4xl font-bold">{downloads}M</h1>
+              <p className="text-gray-500 text-sm md:text-xl mr-2 md:mr-0">Downloads</p>
+              <h1 className=" text-2xl md:text-4xl font-bold">{downloads}M</h1>
             </div>
             <div className="flex-col items-center">
               <img src={rating} alt="" />
-              <p className="text-gray-500">Average Ratings</p>
-              <h1 className="text-4xl font-bold">{ratingAvg}</h1>
+              <p className="text-gray-500 text-sm md:text-xl mr-2 md:mr-0">Average Ratings</p>
+              <h1 className=" text-2xl md:text-4xl font-bold">{ratingAvg}</h1>
             </div>
             <div className="flex-col items-center">
               <img src={iconReview} alt="" />
-              <p className="text-gray-500">Total Reviews</p>
-              <h1 className="text-4xl font-bold">{reviews}K</h1>
+              <p className="text-gray-500 text-sm md:text-xl">Total Reviews</p>
+              <h1 className=" text-2xl md:text-4xl font-bold">{reviews}K</h1>
             </div>
           </div>
 
           {isInstalled ? (
             <button
               disabled
-              className="btn bg-[#00D390] text-white rounded-md p-3 cursor-not-allowed opacity-100"
+              className="btn bg-gray-700 text-white rounded-md p-3 cursor-not-allowed opacity-100"
             >
               Installed
             </button>
@@ -91,7 +91,7 @@ const AppDetails = () => {
         </div>
       </div>
 
-      {/*  Ratings  */}
+      {/*  Ratings chart */}
       <div className="mt-12 ">
         <h2 className="text-2xl font-bold mb-4">Ratings</h2>
         <ResponsiveContainer width="100%" height={300}>

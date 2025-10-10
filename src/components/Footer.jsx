@@ -9,10 +9,10 @@ const Footer = () => {
         <div>
           <div className='flex items-center gap-1'>
             <img className='h-[25px] w-[25px]' src={logo} alt="" />
-            <h3 className="text-white font-semibold mb-2">Hero-App</h3>
+            <h3 className="text-white font-semibold mb-2">HERO.IO</h3>
           </div>
           <p className="text-[12px] p-2 text-gray-400 leading-relaxed">
-            Hero-App is a modern platform showcasing creative, high-quality, and efficient apps built for the next generation. 
+           HERO.IO is a modern platform showcasing creative, high-quality, and efficient apps built for the next generation. 
             Discover, explore, and download the best apps made with passion and innovation — all in one place.
           </p>
         </div>
@@ -74,7 +74,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="text-left md:text-center text-white text-sm border-t border-gray-700 pt-4 mt-10">
-        © 2025 Hero-App. <br className="block md:hidden" /> All rights reserved.
+        © 2025 HERO.IO. <br className="block md:hidden" /> All rights reserved.
       </div>
     </footer>
   );
