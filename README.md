@@ -3,6 +3,10 @@
 ## Description
 **Hero-App** is a dynamic and visually appealing web application that showcases a curated collection of apps with detailed information, ratings, reviews, and download statistics. Users can explore apps, search for specific apps, and interact with detailed app cards to gain insights about each application. The project emphasizes usability, responsive design, and modern web development best practices. It also includes custom error pages for better user experience and smooth navigation.
 
+---
+## 🌐 Live Demo
+Check out the live version of **Hero-App** here: [Hero-App Live Site](https://monumental-travesseiro-7622cf.netlify.app/)
+
 ## Key features include:  
 - **App Browsing**: View a collection of apps with images, descriptions, ratings, and downloads.  
 - **Search Functionality**: Quickly find apps using the search bar.  
