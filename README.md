@@ -56,3 +56,17 @@ The purpose of **Hero-App** is to help users easily discover and explore apps. I
 ---
 
 
+## ⚙️ Local Setup / Installation Guide
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/subornakter/Hero-App.git
+cd hero-app-project
+
+2️⃣ Install Dependencies
+npm install
+3️⃣ Run the Project Locally
+npm run dev
+
+
