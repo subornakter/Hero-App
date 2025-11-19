@@ -23,7 +23,22 @@
   - React Router (dynamic page routing)  
 
 - **State Management & Hooks**:  
-  - React Hooks (`useState`, custom `useApps` hook)  
+  - React Hooks (`useState`, custom `useApps` hook)
+ 
+  ## 🧰 Tech Stack & Dependencies
+- **Frontend**: React.js, TailwindCSS, Vite  
+- **Libraries & Tools**:
+  - `@tailwindcss/vite` ^4.1.14  
+  - `axios` ^1.12.2  
+  - `lucide-react` ^0.545.0  
+  - `react` ^19.1.1  
+  - `react-dom` ^19.1.1  
+  - `react-icons` ^5.5.0  
+  - `react-router` ^7.9.3  
+  - `react-spinners` ^0.17.0  
+  - `react-toastify` ^11.0.5  
+  - `recharts` ^3.2.1  
+  - `tailwindcss` ^4.1.14  
 
 - **Other Features**:  
   - JSON-based app data storage  
