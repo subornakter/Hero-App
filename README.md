@@ -10,7 +10,7 @@ Check out the live version of **Hero-App** here: [Hero-App Live Site](https://mo
 ## Key features include:  
 - **App Browsing**: View a collection of apps with images, descriptions, ratings, and downloads.  
 - **Search Functionality**: Quickly find apps using the search bar.  
-- **Dynamic Ratings**: Display detailed star ratings for each app.  
+- **Dynamic Ratings**: Display detailed star ratings for each app .  
 - **Error Handling**: Custom 404 / App Error pages for seamless user experience.  
 - **Responsive Design**: Fully responsive layout for mobile and desktop devices.  
 
@@ -22,6 +22,8 @@ Check out the live version of **Hero-App** here: [Hero-App Live Site](https://mo
   - Tailwind CSS (responsive and modern UI styling)  
   - React Icons / Lucide Icons (for interactive icons)
   - Daisy UI
+  - react-toastify
+    
 
 - **Routing & Navigation**:  
   - React Router (dynamic page routing)  
